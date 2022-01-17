@@ -53,15 +53,27 @@ footer{
 .fab{
     margin-left: 10px;
 }
+.photo-albam{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 0px;
+
+}
 
 .photo-frame{
     width: 300px;
     height: 500px;
-    border: 12px solid white;
+    border: 11px solid rgb(63, 61, 61);
     border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
 
 }
 .photo img{
     width:100%;
     border-radius: 10px;
+}
+#m-footer{
+    margin-top: 20px;
+    padding: 10px;
 }
